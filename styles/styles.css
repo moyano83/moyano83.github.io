@@ -1,0 +1,58 @@
+/* Normalizacion */
+
+* {outline:none;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { background: transparent; border: 0; margin: 0; padding: 0; outline: 0 none; vertical-align: baseline}
+h1, h2, h3, h4, h5, h6 { clear: both; font-weight: normal; font-size: 1em} 
+ol, ul { list-style: none; } blockquote { quotes: none}
+blockquote:before, blockquote:after { content: ''; content: none} 
+del { text-decoration: line-through}
+table { border-collapse: collapse; border-spacing: 0}
+a {text-decoration: none}
+a img { border: none}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+/* */
+
+body {
+	font-family: "Times New Roman", Georgia, Serif;
+	background-color: #fff; 
+	font-size: 90%;
+	line-height: 1.25;
+	text-align: center;
+}
+
+.index {
+	background-color: #f8f8f0; 
+}
+
+.page_wrapper {
+    clear: both;
+    margin: 0 auto;
+    max-width: 1024px;
+    position: relative;
+    width: 80%;
+}
+
+.nav{
+	padding: 30px 0;
+}
+
+.box_index{
+	text-align: center;
+}
+.box01{
+	text-align: center;
+}
+

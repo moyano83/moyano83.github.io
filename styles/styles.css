@@ -7,8 +7,12 @@ ol, ul { list-style: none; } blockquote { quotes: none}
 blockquote:before, blockquote:after { content: ''; content: none} 
 del { text-decoration: line-through}
 table { border-collapse: collapse; border-spacing: 0}
-a {text-decoration: none}
-a img { border: none}
+#a {text-decoration: none}
+a img, a:active, a:visited
+    {
+    color:red;
+    border: none;
+}
 
 article,
 aside,
@@ -54,5 +58,8 @@ body {
 }
 .box01{
 	text-align: center;
+}
+.links{
+font-weight: bold;
 }
 

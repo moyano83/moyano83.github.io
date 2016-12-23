@@ -10,7 +10,6 @@ table { border-collapse: collapse; border-spacing: 0}
 #a {text-decoration: none}
 a img, a:active, a:visited
     {
-    color:red;
     border: none;
 }
 
@@ -60,6 +59,7 @@ body {
 	text-align: center;
 }
 .links{
+color:#ff0000;
 font-weight: bold;
 }
 

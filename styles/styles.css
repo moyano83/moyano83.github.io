@@ -7,8 +7,7 @@ ol, ul { list-style: none; } blockquote { quotes: none}
 blockquote:before, blockquote:after { content: ''; content: none} 
 del { text-decoration: line-through}
 table { border-collapse: collapse; border-spacing: 0}
-#a {text-decoration: none}
-a img, a:active, a:visited
+a:active, a:visited
     {
     border: none;
 }
@@ -63,3 +62,9 @@ color:#ff0000;
 font-weight: bold;
 }
 
+.logo {
+    width:29px;
+    height:29px;
+    display:inline;
+    text-decoration:none;
+}
